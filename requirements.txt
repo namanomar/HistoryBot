@@ -2,3 +2,6 @@ dotenv
 langchain_community
 langchain
 langchain_google_genai
+faiss-cpu
+faiss-gpu
+openai
