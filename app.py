@@ -46,7 +46,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 user_query = st.chat_input("Ask a question about history...")
-
+st.text("Ask me anything about history! I can provide information from various historical documents.")
 if user_query:
     with st.spinner("Searching historical knowledge base..."):
         vectorstore = load_vector_store()
